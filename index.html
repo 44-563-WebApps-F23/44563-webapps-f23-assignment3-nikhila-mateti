@@ -21,14 +21,17 @@
          <ol>
             <li>Camping</li>
             <li>Bungee Jumping</li>
+            <ol>
             <li>Wildlife Sanctuary</li>
-         
+        </ol>
+    </ol>
             <ul>
             <li>Chhole Bhature</li>
             <li>Paranthas</li>
+            <ul>
             <li>Paneer Dishes</li>
+        </ul>
          </ul>
-        </ol>
         <a href="Mystats.html">MyStats_Link</a>
         <br><br>
         <h2>My favorite Sports</h2>
@@ -71,62 +74,62 @@
         <blockquote cite="https://stackoverflow.com/questions/31692041/how-to-use-div-to-split-screen-in-bottom-and-top-section-where-bottom-is-fixed-h">How to use div to split screen in bottom and top section where bottom is fixed height and top takes remaining space</blockquote>
         <a href="https://css-tricks.com/snippets/html/top-bottom-halves-layout/">top-Bottom-halves-layout</a>
         <pre>
-            <html xmlns="http://www.w3.org/1999/xhtml">
+            &lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;
 
-            <head>
-                <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+            &lt;head&gt;
+                &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;
                 
-                <title>Top and Bottom Halves</title>
+                &lt;title&gt;Top and Bottom Halves&lt;/title&gt;
                 
-                <style type="text/css">
+                &lt;style type=&quot;text/css&quot;&gt;
                    
                    * { margin: 0; padding: 0; }
                    p { padding: 20px; }
                    #top { background: #eee; }
                    #bottom { background: #ddd; }
                 
-                </style>
+                &lt;/style&gt;
                 
-                <script src="http://www.google.com/jsapi" type="text/javascript"></script>
-                <script type="text/javascript">
-                    google.load("jquery", "1.3.2");
-                </script><script type="text/javascript">
+                &lt;script src=&quot;http://www.google.com/jsapi&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+                &lt;script type=&quot;text/javascript&quot;&gt;
+                    google.load(&quot;jquery&quot;, &quot;1.3.2&quot;);
+                &lt;/script&gt;&lt;script type=&quot;text/javascript&quot;&gt;
                     $(function(){
                     
                        var $window = $(window);
                        winHeight = $window.height();
                        
-                       $("#top").height(winHeight/2);
-                       $("#bottom").height(winHeight/2);
+                       $(&quot;#top&quot;).height(winHeight/2);
+                       $(&quot;#bottom&quot;).height(winHeight/2);
                        
                        $(window).resize(function(){
             
                          winHeight = $window.height();
                          
-                         $("#top").height(winHeight/2);
-                         $("#bottom").height(winHeight/2);
+                         $(&quot;#top&quot;).height(winHeight/2);
+                         $(&quot;#bottom&quot;).height(winHeight/2);
                          
                        });
                     });
-                </script>
-            </head>
+                &lt;/script&gt;
+            &lt;/head&gt;
             
-            <body>
+            &lt;body&gt;
             
-                <div id="top">
-                    <p>Top Half</p>
-                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
-                </div>
+                &lt;div id=&quot;top&quot;&gt;
+                    &lt;p&gt;Top Half&lt;/p&gt;
+                    &lt;p&gt;Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus&lt;/p&gt;
+                &lt;/div&gt;
             
-                <div id="bottom">
-                    <p>Bottom Half</p>
-                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
-                </div>
+                &lt;div id=&quot;bottom&quot;&gt;
+                    &lt;p&gt;Bottom Half&lt;/p&gt;
+                    &lt;p&gt;Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus&lt;/p&gt;
+                &lt;/div&gt;
             
-            </body>
+            &lt;/body&gt;
             
-            </html>   
+            &lt;/html&gt;    
         </pre>
-        
+
     </body>
 </html>
